@@ -1,3 +1,133 @@
 body{
     background-color: antiquewhite;
 }
+
+.work-sans{
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Shared Style */
+.btn{
+    width: 180px;
+    height: 64px;
+    padding: 20px 25px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600px;
+    border-radius:  8px;
+    border-style: none;
+}
+
+.navbar{
+    /* border: 1px solid red; */
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2{
+    font-size: 45px;
+    font-weight: bold;
+    color: #131313;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.menu{
+    margin-top: 40px;
+    margin-right: 120px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 26px;
+    color: #424242;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.banner{
+    width: 100%;
+    max-width: 1440px;
+    /* border: 1px solid red; */
+}
+.bannner-content{
+    /* border: 1px solid red; */
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+.bannner-content h2{
+    font-size: 64px;
+    font-weight: bold;
+    color: #131313;
+    margin-bottom: 16px;
+}
+.bannner-content p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+
+.banner-photo{
+    margin-top: 50px;
+}
+.banner-photo img{
+    border: #FF900E ;
+    width: 100%;
+    /* width: 1000px; */
+    /* height: 700px; */
+}
+
+/* Style For Feature Section */
+
+.feature-container{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    margin-top: 85px;
+}
+.feature-container .employee-photo{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:24px;
+    border-radius: 8px;
+}
+.feature-container .content{
+    /* border: 1px solid red; */
+    margin-left: 75px;
+}
+.content h3{
+    line-height: 30px;
+}
+#title{
+    font-size: 45px;
+    font-weight: 500;
+}
+#first {
+    font-weight: 700;
+    font-size: 45px;
+}
+#second{
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.content p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 31px;
+}
